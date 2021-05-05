@@ -43,7 +43,7 @@ The automation works by,
 ### FAQS
 
 #### 1. How is this script running?
-This script is running in a dedicated server through a scheduling
+This script is running in a dedicated server through a scheduler
 
 #### 2. Is there a frequency in which this happens?
 Yes, Normally the script runs every 15 minutes once. But if the links provided in the input sheet is same as the one already available in the website, then the script only checks if the current link is still valid.
@@ -56,4 +56,3 @@ Mostly, it should be because of below reasons:
 
 #### 4. What happens, If the `last updated` column never got updated?
 This will not happen usually. If this happened, then the automation is not running or some problem with the scheduling or server. This should be checked by the developer.
-
